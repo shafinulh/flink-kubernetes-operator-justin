@@ -1,3 +1,25 @@
+# flink-kubernetes-operator-justin
+
+This repository contains an extracted version of the Flink Kubernetes Operator with the Justin autoscaling algorithm implementation.
+
+The Justin autoscaling work is based on:
+
+- Paper: *Justin: Hybrid CPU/Memory elastic scaling for distributed stream processing*
+- Source repository: https://github.com/CloudLargeScale-UCLouvain/flink-justin
+
+## Citation
+
+```bibtex
+@inproceedings{schmitz2025justin,
+  title={Justin: Hybrid CPU/Memory elastic scaling for distributed stream processing},
+  author={Schmitz, Donatien and Rosinosky, Guillaume and Rivi{\`e}re, Etienne},
+  booktitle={IFIP International Conference on Distributed Applications and Interoperable Systems},
+  pages={102--118},
+  year={2025},
+  organization={Springer}
+}
+```
+
 # Apache Flink Kubernetes Operator
 
 A Kubernetes operator for Apache Flink, implemented in Java. It allows users to manage Flink applications and their lifecycle through native k8s tooling like kubectl.
